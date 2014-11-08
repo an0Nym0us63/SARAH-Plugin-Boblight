@@ -1,0 +1,23 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleboblight" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleboblight" scope="public">
+    <example>Sarah allume boblight en police</example>
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item>
+
+    <one-of>
+      <item>met boblight en police<tag>out.action.boblight = "police";</tag></item>
+      <item>met boblight en test<tag>out.action.boblight = "rgb";</tag></item>
+      <item>met boblight en arc en ciel<tag>out.action.boblight = "rainbow";</tag></item>
+	  <item>met boblight en marseillaise<tag>out.action.boblight = "marseillaise";</tag></item>
+	  <item>met boblight en stroboscope<tag>out.action.boblight = "strobe";</tag></item>
+	  <item>met boblight en cas deux mille<tag>out.action.boblight = "k2000";</tag></item>
+	  <item>met boblight en cheminée<tag>out.action.boblight = "feu";</tag></item>
+	  <item>met boblight en serpent<tag>out.action.boblight = "snake";</tag></item>
+	  <item>met boblight en orage<tag>out.action.boblight = "orage";</tag></item>
+	  <item>met boblight à l'arrêt<tag>out.action.boblight = "kill";</tag></item>
+    </one-of>
+    
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/boblight";</tag>
+    
+  </rule>  
+</grammar>

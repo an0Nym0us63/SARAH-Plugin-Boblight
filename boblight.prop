@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "boblight"  : {
+      "description" : "boblight",
+      "version" : "1.0",
+      "url" : "",
+	  "port" : ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+#boblight .portlet-header,
+#boblight .portlet-footer {
+  background-color: #000000;
+}
+#boblight .portlet-body {
+  color: #FFF;
+  background: #000000;
+}
